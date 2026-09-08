@@ -1,0 +1,109 @@
+html, body {
+  height: 100%;
+}
+
+body { 
+ background-image: url("Clouds.bmp");
+  background-size: cover;       /* fills the screen, crops if needed */
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+    margin: 0;
+    background-color: #111; 
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+
+  .content {
+    padding: 40px;
+    padding-top: 60px;
+  }
+
+
+  .ticker-wrap {
+    position: fixed;
+    top: 0;
+/*  bottom: 0; */
+    left: 0;
+    width: 100%;
+    background-color: red;
+    overflow: hidden;
+    padding: 10px 0;
+    box-sizing: border-box;
+  }
+
+  .ticker-label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    z-index: 2;
+  }
+
+  .ticker-move {
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 100%;
+    animation: ticker-scroll 20s linear infinite;
+    font-weight: bold;
+    f<p>This is normal text, but <span class="highlight">this part</span><p>This is normal text, but <span class="highlight">this part</span>ont-size: 20px;
+    color: white;
+  }
+
+  @keyframes ticker-scroll {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+ }
+
+    
+h1 {
+  color: blue;
+  font-size: 32px;
+  text-align: left;
+}
+
+h1.big {
+  color: blue;
+  font-size: 40px;
+  text-align: left;
+}
+
+p {
+  color: red;
+  font-family: Arial, sans-serif;
+
+}
+
+
+/*SIDEBAR SHIIII*/
+
+.sidebar {
+   position: fixed;
+   top: 60px;
+   left: 0;
+   width: 150px;
+   padding: 20px;
+   box-sizing: border-box;
+
+}
+
+
+.sidebar a {
+   display: block;
+   margin bottom: 15px;
+   font-weight: bold;
+   font-size: 20px;
+   color: indigo;
+
+} 
+
+
+.main-content {
+   margin-left: 190px;
+   padding-top: 80px;
+   padding-right: 40px;
+

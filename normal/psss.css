@@ -3,7 +3,7 @@ html, body {
 }
 
 body { 
- background-image: url("/assets/Clouds.bmp");
+ background-image: url("../assets/Clouds.bmp");
   background-size: cover;       /* fills the screen, crops if needed */
   background-position: center;
   background-repeat: no-repeat;

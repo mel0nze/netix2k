@@ -136,3 +136,9 @@ p {
 .night-link:hover {
   background-color: #444;
 }
+
+/* photo */
+
+.photo {
+  margin-right: 35px;
+}

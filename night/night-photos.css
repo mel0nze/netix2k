@@ -136,3 +136,7 @@ p {
 .light-link:hover {
   background-color: #444;
 }
+
+.photo {
+  margin-right: 35px;
+}
